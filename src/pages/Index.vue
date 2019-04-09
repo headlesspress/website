@@ -24,7 +24,7 @@ export default {
     HomepageJamstack
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'HeadlessPress | A dead simple headless boiler theme for Wordpress.'
   }
 }
 </script>
