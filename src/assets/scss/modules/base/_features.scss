@@ -18,3 +18,30 @@
     margin-top: 0;
   }
 }
+
+@media (--mobile), (--mobile-l) {
+  .features__section{
+    width: 100%;
+    padding: $spacer-lg;
+    margin: 0;
+    &--graphic{
+      text-align: center;
+      margin-bottom: $spacer;
+      order: 0;
+      svg{
+        width: 128px;
+        margin: 0 auto;
+      }
+    }
+    &--body{
+      order: 1;
+    }
+    &--graphic, &--body{
+      lost-column: 1/1 0 0;
+    }
+    &--title{
+      @include font-size(1.8);
+      margin-top: initial;
+    }
+  }
+}

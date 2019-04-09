@@ -42,3 +42,24 @@
     }
   }
 }
+
+
+@media (--mobile), (--mobile-l) {
+  .homepage__header{
+    height: auto;
+    padding: $spacer-lg;
+    margin-bottom: $spacer-lg;
+    width: 100%;
+    &--title{
+      @include font-size(2.5);
+    }
+    &--subtitle{
+      @include font-size(1.1);
+      text-align: center;
+    }
+    &--logo{
+      margin-bottom: $spacer-md;
+      width: 90px;
+    }
+  }
+}

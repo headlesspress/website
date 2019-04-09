@@ -30,3 +30,37 @@
     }
   }
 }
+
+
+@media (--mobile), (--mobile-l) {
+.homepage__jamstack{
+  padding: $spacer-lg;
+  margin-top: $spacer-lg;
+  &--title{
+    @include font-size(1.8);
+  }
+  &--intro{
+    width: 100%;
+    margin: 0;
+    padding: 0 $spacer-lg;
+  }
+  &--list{
+    list-style: none;
+    margin: $spacer-lg 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    li{
+      width: 100%;
+      display: block;
+      height: auto;
+      padding: $spacer;
+      text-align: center;
+    }
+    svg{
+      height: 45px;
+    }
+  }
+}
+
+}
