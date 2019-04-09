@@ -8,7 +8,7 @@
             href="https://github.com/headlesspress/theme" 
             target="_blank"
           >
-            <github-icon class="navigation--github"/>
+            <icon-github class="navigation--github"/>
           </a>
         </li>
       </ul>
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import GithubIcon from '~/assets/vectors/github.svg'
+import IconGithub from '~/assets/vectors/github.svg'
 
 export default {
   name: 'base-navigation',
   components: {
-    GithubIcon
+    IconGithub
   },
 }
 </script>

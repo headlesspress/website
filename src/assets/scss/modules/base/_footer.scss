@@ -1,0 +1,40 @@
+//** Footer
+
+.footer{
+  background: darken($body-600, 3%);
+  >.container{
+    display: flex;
+    justify-content: space-between;
+  }
+  &--info{
+    @include font-size(0.8);
+    color: $accent-700;
+    a{
+      color: $accent;
+      font-weight: $font-weight-bold;
+    }
+  }
+  &--icon{
+    height: 0.8rem;
+    display: inline;
+  }
+}
+
+@media (--mobile), (--mobile-l) {
+  .footer{
+    padding: $spacer $spacer-lg;
+    >.container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &--info{
+      @include font-size(1.1);
+      width: 100%;
+      text-align: center;
+    }
+    &--icon{
+      height: 1.1rem;
+    }
+  }
+}
