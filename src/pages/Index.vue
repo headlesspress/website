@@ -24,7 +24,7 @@ export default {
     HomepageJamstack
   },
   metaInfo: {
-    title: 'HeadlessPress | A dead simple headless boiler theme for Wordpress.',
+    title: 'A dead simple headless boiler theme for Wordpress.',
     meta: [
       { key: 'description', name: 'description', content: 'Turn Wordpress into a powerful Headless CMS for your new Website/App. With HeadlessPress you get all the base essentials + a few extras to get you up and running fast with the Wordpress REST API.' }
     ]
