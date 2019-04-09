@@ -1,0 +1,22 @@
+{
+  "name": "headlesspress-site",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.5.0",
+    "normalize.css": "^8.0.1",
+    "vue-svg-loader": "^0.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "lost": "^8.3.1",
+    "node-sass": "^4.11.0",
+    "postcss-custom-media": "^7.0.8",
+    "sass-loader": "^7.1.0"
+  }
+}

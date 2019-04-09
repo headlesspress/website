@@ -1,0 +1,18 @@
+//** Base
+
+@lost flexbox flex;
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100vh;
+	background: $body;
+}
+
+.container {
+	lost-center: $container-width;
+	position: relative;
+}

@@ -1,0 +1,20 @@
+//** Features
+
+.features__section{
+  color: $white;
+  lost-flex-container: row;
+  width: 80%;
+  margin: $spacer-lg auto;
+  &--graphic{
+    lost-column: 1/4 0 $spacer-lg;
+    svg{
+      width: 90%;
+    }
+  }
+  &--body{
+    lost-column: 3/4 0 $spacer-lg;
+  }
+  &--title{
+    margin-top: 0;
+  }
+}

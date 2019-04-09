@@ -1,0 +1,44 @@
+//** Header
+
+.homepage__header{
+  height: 75vh;
+  background: $accent;
+  margin-bottom: $spacer-lg;
+  >.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  &--title, &--subtitle{
+    color: $body;
+  }
+  &--subtitle{
+    @include font-size(1.75);
+    text-transform: capitalize;
+    font-weight: $font-weight-light;
+    margin-bottom: $spacer-lg;
+  }
+  &--logo{
+    margin-bottom: $spacer-md;
+    width: 128px;
+  }
+  &--download{
+    @include font-size(1.2);
+    transition: transform 0.2s ease-in-out;
+    font-weight: $font-weight-bold;
+    display: inline-block;
+    min-width: 15em;
+    text-align: center;
+    text-decoration: none;
+    color: $white;
+    padding: $spacer;
+    background: $comp;
+    border-radius: $spacer-lg;
+    box-shadow: 0 6px 0 0 $comp-700;
+    &:active{
+      transform: translateY(4px);
+    }
+  }
+}

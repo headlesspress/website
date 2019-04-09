@@ -1,0 +1,67 @@
+//** Variables
+
+// Colors
+$accent-100     : #FCFDF6;
+$accent-200     : #FAFBEE;
+$accent-300     : #F5F8DC;
+$accent-400     : #EFF4CB;
+$accent         : #E5EDA8;
+$accent-600     : #CED597;
+$accent-700     : #A0A676;
+$accent-800     : #737754;
+
+$comp-100       : #F3F6FC;
+$comp-200       : #E6EDF9;
+$comp-300       : #CDDBF3;
+$comp-400       : #B5CAEE;
+$comp           : #83A6E2;
+$comp-600       : #7695CB;
+$comp-700       : #5C749E;
+$comp-800       : #425371;
+
+$body-400       : #5C7277;
+$body           : #334F55;
+$body-600       : #293F44;
+
+$white          : #FFFFFF;
+
+// Spacing
+$spacer:                     15px;
+$spacer-sm:                  $spacer / 3;
+$spacer-md:                  $spacer * 1.5;
+$spacer-lg:                  $spacer * 2;
+
+// Border & Box
+$border-radius:             6px;
+$border-radius-round:       100%;
+$box-shadow:                0 4px 16px 0 transparentize($body, 0.9);
+
+// Grid
+$container-width: 980px;
+
+// Breakpoints
+@custom-media --tablet-l        only screen and 
+                                (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5),
+                                (min-width: 1024px) and (max-width: 1366px) and (min-resolution: 1.5dppx);
+
+@custom-media --tablet          only screen and 
+                                (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+                                (min-width: 768px) and (max-width: 1024px) and (min-resolution: 2dppx);
+
+@custom-media --mobile-l        only screen and 
+                                (min-width: 481px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+                                (min-width: 481px) and (max-width: 767px) and (min-resolution: 2dppx);
+
+@custom-media --mobile          only screen and 
+                                (min-width: 320px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), 
+                                (min-width: 320px) and (max-width: 480px) and (min-resolution: 2dppx);
+
+// Typography
+$body-font:         'Roboto Mono', monospace;
+$title-font:        'Poppins', sans-serif;
+
+// Weights
+$font-weight-light:                300;
+$font-weight-normal:               400;
+$font-weight-bold:                 700;
+$font-weight-heavy:                900;

@@ -1,0 +1,13 @@
+//** Introduction
+
+.homepage__introduction{
+  padding: $spacer-lg 0;
+  margin-bottom: $spacer-lg;
+  p{
+    @include font-size(1.1);
+    text-align: center;
+    color: $white;
+    width: 75%;
+    margin: 0 auto;
+  }
+}
