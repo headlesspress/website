@@ -13,6 +13,7 @@
             <li>Wordpress SEO (Yoast)</li>
             <li>Wordpress Menus</li>
             <li>JSON Web Tokens (JWT)</li>
+            <li>Contact Form 7 form schema</li>
           </ul>	
         </div>
       </section>
